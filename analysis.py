@@ -1,6 +1,8 @@
 
 import pandas as pd
+from pathlib import Path
 
+Path("data").mkdir(exist_ok=True)
 # 1. Load dataset
 df = pd.read_csv("data/Car_Sales_dataset.csv")
 

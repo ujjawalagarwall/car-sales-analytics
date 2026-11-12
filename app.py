@@ -286,3 +286,4 @@ st.download_button(
     file_name="filtered_car_sales.csv",
     mime="text/csv"
 )
+csv = filtered.to_csv(index=False).encode("utf-8")

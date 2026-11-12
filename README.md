@@ -9,6 +9,21 @@ The project analyzes 23,906 car sales transactions from 2022
 and 2023 to identify sales trends, manufacturer performance,
 regional patterns, and business insights.
 
+## Dataset
+
+The project uses a car sales dataset containing
+23,906 transactions covering 2022 and 2023.
+
+Dataset reference:
+https://github.com/Sathwik-vittu/Car-Sales-And-Revenue-Report
+
+The raw dataset is not included in this repository.
+
+To run the project:
+1. Obtain the Car Sales dataset from the source.
+2. Place Car_Sales_dataset.csv inside the data folder.
+3. Run python analysis.py to generate the cleaned dataset.
+
 ## Tech Stack
 - Python
 - Pandas
